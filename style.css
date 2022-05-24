@@ -1,0 +1,378 @@
+
+  .sidebar {
+    position:fixed;
+    width: 25%;
+    height:100%    ;
+    font-size: 20px;
+    background: #191919;
+    min-height: 100vh;
+  }
+
+  .nav {
+    position:relative;
+    margin: 50 10%;
+    text-align: left;
+    top: 30%;
+    transform: translateY(-50%);
+    font-weight: bold;
+  }
+  .nav ul {
+    list-style: none;
+    font-family: monospace;
+    transition: 1.5s;
+  }
+  .nav ul a{
+    transition: 0.8s;
+    color: #723feb;
+    font-family:monospace;
+  }
+  .nav ul .active a{
+    color: white;
+    font-family:cursive;
+  }
+  .nav ul a:hover{
+    color: chartreuse;
+  }
+  a {
+    line-height: 5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.4em;
+    color: white
+
+    transition:0.6s;
+  }
+  .active a {
+    color: white;
+  }
+  not (.active) ::after {
+    opacity: 0.2;
+  }
+  not(.active):hover a {
+    color: rgba(#FFF, 0.75);
+  }
+  section {
+   color: white;
+   margin-left: 26%;
+   font-family: monospace;
+   font-size: larger;
+   
+} 
+section p{
+  transition: 1.5s;
+}
+section p:hover{
+  color:chartreuse;
+}
+section .baslik {
+  text-shadow: 0 0 12px #FF0000, 0 0 20px #0000FF;
+    color: #723feb;
+    font-size: 60px;
+    padding-top: 50%;
+    font-weight: bold;
+    font-family:'Press Start 2P', cursive;
+    margin-left: 20% 
+}
+section span:hover{
+  color: aliceblue;
+  transition: 0.7s;
+}
+section .mario img  {
+    height: 60px;
+    margin-left: 50%;
+}
+section .mario ul{overflow:hidden;
+}
+section .mario ul li{
+  float: left; margin-right: 20px;
+}
+section .mario ul li img{
+  border: 2px solid #000;
+}
+.clear{ clear: both;}
+
+
+section .hakkımızda img{
+  height: 200px;
+  margin-left: 38%;
+}
+
+.sidebar div img{
+  height: 148px;
+  margin-left:0%;
+  
+}
+.sidebar .social-media{
+  position:absolute;
+  bottom: 0;
+  left: 50%;
+  transform:translate(-50%);
+  display: flex;
+}
+.sidebar .social-media a{
+  display: block;
+  width: 70px;
+  font-size:large;
+  background: black;
+  height: 50px;
+  line-height: 50px;
+  text-align:center;
+  margin: 0 10px;
+  color: #7354bc;
+  border-top-right-radius:5px ;
+  border-top-left-radius: 5px;
+  transition: 0.5s;
+}
+.sidebar .social-media a:hover{
+  background: #ffffff;
+  font-size: xx-large;
+}
+
+
+.alt ul{
+  font-size: medium;
+  margin-left: 30%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-weight: bold;
+  font-family: monospace;
+}
+.alt li{
+  color: #ffffff;
+  display: inline;
+  margin: 30px;
+  position: relative;
+}
+.alt ul a {
+  color:grey;
+  font-family: monospace;
+  transition: 0.8s;
+}
+.alt ul a:hover{
+  color: chartreuse;
+}
+
+section h1{
+  text-shadow: 0 0 12px #FF0000, 0 0 20px #0000FF;
+  color: chartreuse;
+  font-size: 35px;
+  text-align: left;
+  font-weight: bold;
+  font-family: monospace;
+}
+section .fps img{
+margin-left:0%;
+border-radius:50% 20% / 10% 40%;
+height: 250px;
+}
+section .fps p{
+/* text-align: center; */
+text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+font-size: 30px;
+font-weight: bold;
+transition: 0.5s;
+}
+section .fps p:hover{
+  font-size: 35px;
+}
+section .fps{
+  margin-right: 30%;
+}
+section .tps img{
+  margin-left: 59%;
+  border-radius:50% 20% / 10% 40%;
+  height: 250px;
+  }
+  section .tps p{
+  text-align: right;
+  text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.5s;
+  }
+  section .tps p:hover{
+    font-size: 35px;
+  }
+  section .rpg img{
+    /* margin-left: 33%; */
+    border-radius:50% 20% / 10% 40%;
+    height: 250px;
+    
+    }
+    section .rpg p{
+    text-align: left;
+    text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+    }
+    section .rpg p:hover{
+      font-size: 35px;
+    }
+    section .moba img{
+      margin-left: 59%;
+      border-radius:50% 20% / 10% 40%;
+      height: 250px;
+      }
+      section .moba p{
+      text-align: right;
+      text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+      font-size: 30px;
+      font-weight: bold;
+      transition: 0.5s;
+      }
+      section .moba p:hover{
+        font-size: 35px;
+      }
+      section .openworld img{
+        /* margin-left: 29%; */
+        border-radius:50% 20% / 10% 40%;
+        height: 250px;
+        }
+        section .openworld p{
+        text-align: left;
+        text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+        font-size: 30px;
+        font-weight: bold;
+        transition: 0.5s;
+        }
+        section .openworld p:hover{
+          font-size: 35px;
+        }
+        section .adventure img{
+          margin-left: 59%;
+          border-radius:50% 20% / 10% 40%;
+          height: 250px;
+          }
+          section .adventure p{
+          text-align: right;
+          text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+          font-size: 30px;
+          font-weight: bold;
+          transition: 0.5s;
+          }
+          section .adventure p:hover{
+            font-size: 35px;
+          }
+          section .Simulation img{
+            /* margin-left: 29%; */
+            border-radius:50% 20% / 10% 40%;
+            height: 250px;
+            }
+            section .Simulation p{
+            text-align: left;
+            text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+            font-size: 30px;
+            font-weight: bold;
+            transition: 0.5s;
+            }
+            section .Simulation p:hover{
+              font-size: 35px;
+            }
+            section .battleroyal img{
+              margin-left: 59%;
+              border-radius:50% 20% / 10% 40%;
+              height: 250px;
+              }
+              section .battleroyal p{
+              text-align: right;
+              text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+              font-size: 30px;
+              font-weight: bold;
+              transition: 0.5s;
+              }
+              section .battleroyal p:hover{
+                font-size: 35px;
+              }
+              /* Gelecek Bölümü */
+              section .se5 img{
+                margin-left: 0;
+                border-radius:50% 20% / 10% 40%;
+                height: 250px;
+                }
+                section .se5 p{
+                text-align: left;
+                text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+                font-size: 25px;
+                font-weight: bold;
+                transition: 0.5s;
+                }
+                section .se5 p:hover{
+                  font-size: 30px;
+                }
+                section .pc2 img{
+                  margin-left: 59%;
+                  border-radius:50% 20% / 10% 40%;
+                  height: 250px;
+                  }
+                  section .pc2 p{
+                  text-align: right;
+                  text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+                  font-size: 25px;
+                  font-weight: bold;
+                  transition: 0.5s;
+                  }
+                  section .pc2 p:hover{
+                    font-size: 30px;
+                  }
+                  section .UNCHARTED img{
+                    margin-left: 0%;
+                    border-radius:50% 20% / 10% 40%;
+                    height: 250px;
+                    }
+                    section .UNCHARTED p{
+                    text-align: left;
+                    text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+                    font-size: 25px;
+                    font-weight: bold;
+                    transition: 0.5s;
+                    }
+                    section .UNCHARTED p:hover{
+                      font-size: 30px;
+                    }
+                    section .saintsrow img{
+                      margin-left: 54%;
+                      border-radius:50% 20% / 10% 40%;
+                      height: 250px;
+                      }
+                      section .saintsrow p{
+                      text-align: right;
+                      text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+                      font-size: 25px;
+                      font-weight: bold;
+                      transition: 0.5s;
+                      }
+                      section .saintsrow p:hover{
+                        font-size: 30px;
+                      }
+                      section .gta6 img{
+                        margin-left: 0%;
+                        border-radius:50% 20% / 10% 40%;
+                        height: 250px;
+                        }
+                        section .gta6 p{
+                        text-align: left;
+                        text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+                        font-size: 25px;
+                        font-weight: bold;
+                        transition: 0.5s;
+                        }
+                        section .gta6 p:hover{
+                          font-size: 30px;
+                        }
+                        .iletisim ul{
+                          text-decoration: none;
+                          list-style: none;
+                        }
+                        .iletisim ul li a{
+                          color:crimson;
+                        }
+                        .map img{
+                          margin-left: 55%;
+                          padding-bottom: 30px;
+                        }
+
+
+
+
+
